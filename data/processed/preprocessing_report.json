@@ -1,0 +1,108 @@
+{
+  "original_shape": [
+    20000,
+    9
+  ],
+  "final_shape": [
+    20000,
+    32
+  ],
+  "missing_values": {
+    "before": {
+      "title": 0,
+      "district": 0,
+      "district_code": 0,
+      "total_price": 0,
+      "unit_price": 0,
+      "house_info": 0,
+      "follow_info": 0,
+      "url": 0,
+      "community": 0,
+      "bedroom_num": 0,
+      "livingroom_num": 0,
+      "area": 0,
+      "orientation": 0,
+      "decoration": 0,
+      "floor_type": 0,
+      "total_floor": 0,
+      "build_year": 0,
+      "followers": 0,
+      "days_on_market": 0
+    },
+    "after": {
+      "title": 0,
+      "district": 0,
+      "district_code": 0,
+      "total_price": 0,
+      "unit_price": 0,
+      "house_info": 0,
+      "follow_info": 0,
+      "url": 0,
+      "community": 0,
+      "bedroom_num": 0,
+      "livingroom_num": 0,
+      "area": 0,
+      "orientation": 0,
+      "decoration": 0,
+      "floor_type": 0,
+      "total_floor": 0,
+      "build_year": 0,
+      "followers": 0,
+      "days_on_market": 0
+    }
+  },
+  "outliers_removed": {
+    "total_price": {
+      "count": 534,
+      "percentage": 2.67,
+      "lower_bound": 50,
+      "upper_bound": 1095.65
+    },
+    "unit_price": {
+      "count": 77,
+      "percentage": 0.385,
+      "lower_bound": 10333.375,
+      "upper_bound": 86118.375
+    },
+    "area": {
+      "count": 255,
+      "percentage": 1.275,
+      "lower_bound": 20,
+      "upper_bound": 194.0
+    },
+    "bedroom_num": {
+      "count": 975,
+      "percentage": 4.875,
+      "lower_bound": 0.5,
+      "upper_bound": 4.5
+    },
+    "livingroom_num": {
+      "count": 4221,
+      "percentage": 21.105,
+      "lower_bound": 1.0,
+      "upper_bound": 1.0
+    },
+    "total_floor": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": 1,
+      "upper_bound": 39.5
+    },
+    "build_year": {
+      "count": 0,
+      "percentage": 0.0,
+      "lower_bound": 1984.0,
+      "upper_bound": 2024
+    }
+  },
+  "feature_engineering": [
+    "house_age",
+    "total_rooms",
+    "avg_room_area",
+    "floor_ratio",
+    "price_per_bedroom",
+    "market_heat",
+    "layout_ratio",
+    "district_level"
+  ]
+}

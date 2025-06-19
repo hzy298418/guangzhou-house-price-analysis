@@ -1,0 +1,4 @@
+2025-05-30 18:20:05,474 - INFO - 开始爬取 天河区 的房源
+2025-05-30 18:20:05,477 - INFO - 正在爬取: 天河区 第1页
+2025-05-30 18:20:15,584 - ERROR - 爬取页面出错: https://gz.lianjia.com/ershoufang/tianhe/pg1/, 错误: HTTPSConnectionPool(host='hip.lianjia.com', port=443): Max retries exceeded with url: /captcha?location=https%3A%2F%2Fgz.lianjia.com%2Fershoufang%2Ftianhe%2Fpg1%2F&ext=jHD7JaK-3uxPGP0RZmEFC44fbDGEGqxbJhSHl7HbGrZjZLWljb7Oe0cg_8AiJQFHF3NXTcA6bJwiwaQz6UqHtNPLdHFa-lg85K5vyQPOeaKszWNPiF7rRxKt1OiAwYNJ8ZEizJ154rR4RA== (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))
+2025-05-30 18:20:15,606 - INFO - 正在爬取: 天河区 第2页

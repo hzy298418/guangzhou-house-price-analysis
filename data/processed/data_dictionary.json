@@ -1,0 +1,78 @@
+{
+  "numeric_features": [
+    "total_price",
+    "unit_price",
+    "area",
+    "bedroom_num",
+    "livingroom_num",
+    "total_floor",
+    "build_year",
+    "followers",
+    "days_on_market",
+    "house_age",
+    "total_rooms",
+    "avg_room_area",
+    "floor_ratio",
+    "price_per_bedroom",
+    "market_heat",
+    "layout_ratio"
+  ],
+  "categorical_features": [
+    "district_code",
+    "district_level",
+    "district_天河区",
+    "district_海珠区",
+    "district_番禺区",
+    "district_白云区",
+    "district_荔湾区",
+    "district_越秀区",
+    "district_黄埔区",
+    "orientation_东",
+    "orientation_北",
+    "orientation_南",
+    "orientation_西",
+    "decoration_encoded",
+    "floor_type_encoded",
+    "district_level_encoded"
+  ],
+  "target_variable": "total_price",
+  "encoding_mappings": {
+    "district": [
+      "district_天河区",
+      "district_海珠区",
+      "district_番禺区",
+      "district_白云区",
+      "district_荔湾区",
+      "district_越秀区",
+      "district_黄埔区"
+    ],
+    "orientation": [
+      "orientation_东",
+      "orientation_北",
+      "orientation_南",
+      "orientation_西"
+    ],
+    "decoration": {
+      "毛坯": 1,
+      "简装": 2,
+      "精装": 3,
+      "豪装": 4,
+      "其他": 2
+    },
+    "floor_type": {
+      "低楼层": 1,
+      "中楼层": 2,
+      "高楼层": 3
+    },
+    "district_level": {
+      "外围区": 1,
+      "次核心区": 2,
+      "核心区": 3
+    }
+  },
+  "shape": [
+    20000,
+    32
+  ],
+  "preprocessing_date": "2025-05-30 18:25:57"
+}

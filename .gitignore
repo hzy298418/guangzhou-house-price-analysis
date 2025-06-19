@@ -1,0 +1,22 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.ipynb_checkpoints
+
+# Data files (如果数据文件过大，不建议上传)
+# 如果你的csv文件小于25MB，可以去掉下面这行注释
+# data/raw/
+# data/processed/*.csv
+data/cache/
+
+# IDE / Editor folders
+.idea/
+.vscode/
